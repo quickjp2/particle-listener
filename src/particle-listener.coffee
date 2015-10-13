@@ -18,7 +18,6 @@ url = require 'url'
 fs = require 'fs'
 es_config = {}
 data = ""
-token = es_config['auth-token']
 
 fs.readFile './es-config.json', (err, contents) ->
   if err
@@ -28,6 +27,7 @@ fs.readFile './es-config.json', (err, contents) ->
 
 addr = es_config['particle-url']
 event_name = es_config['event']
+token = es_config['auth-token']
 
 module.exports = (robot) ->
   eventSourceInitDict =
