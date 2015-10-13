@@ -1,13 +1,12 @@
 # Description
-#   A script that listens for a specific event posted to the particle cloud and logs it into a google spreadsheet.
+#   A script that listens for a specific event posted to the particle cloud and logs it into a google spreadsheet. Can be extended to post info to a chat client.
 #
 # Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
 #
 # Commands:
 #
 # Notes:
-#   <optional notes required for the script>
+#    Requires a file name es-config.json to be in the base directory (same dir as 'package.json'). See README for how to format file.
 #
 # Author:
 #    <john.paul.quicksall@gmail.com>

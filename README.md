@@ -18,9 +18,18 @@ Then add **hubot-particle-listener** to your `external-scripts.json`:
 ]
 ```
 
-## Sample Interaction
+Once this is complete, add the config file to your base hubot directory
 
+`touch es-config.json`
+
+Add the following to that file:
+
+```json
+{
+  "particle-url":"https://api.particle.io/v1/events",
+  "google-sheet-url":"<url to your google sheet>",
+  "auth-token":"<particle cloud access token>",
+  "event":"<particle event name>"
+}
 ```
-user1>> hubot hello
-hubot>> hello!
-```
+  
