@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, particle, spark",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-particle-listener.git"
+    "url": "git://github.com/quickjp2/hubot-particle-listener.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-particle-listener/issues"
+    "url": "https://github.com/quickjp2/particle-listener/issues"
   },
   "dependencies": {},
   "peerDependencies": {
